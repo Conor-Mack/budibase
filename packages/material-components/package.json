@@ -1,0 +1,21 @@
+{
+  "name": "material-components",
+  "version": "1.0.0",
+  "description": "A material components lib for Budibase using SMUI",
+  "main": "index.js",
+  "author": "Conor_Mack",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@smui/button": "^1.0.0-beta.19",
+    "rollup": "^1.29.1",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-svelte": "^5.1.1",
+    "sass": "^1.25.0",
+    "svelte": "^3.17.2"
+  }
+}
